@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.14.0/css/all.css" integrity="sha384-HzLeBuhoNPvSl5KYnjx0BT+WB0QEEqLprO+NBkkk5gbc67FTaL7XIGa2w1L0Xbgc" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://bootswatch.com/4/sketchy/bootstrap.min.css">
+    <title>Let's Do It!</title>
+</head>
+<body>
+    
+    <div class="container mt-4">
+        <header>
+          <h1 class="display-4 text-center">What's new?</h1>
+        </header>
+        
+            <h2>Projects</h2>
+          <div id="project-form">
+            <label for="subject">Project:</label>
+              <input
+                type="text"
+                name="add-project-input"
+                placeholder="subject..."
+                id="subject"/>
+            <input class="btn btn-primary" id="add-project-btn" value="Add project">
+            <div class="form-group">
+              <label for="id">id:</label>
+              <input type="text" id="id">
+          </div>
+            <table class="table table-stripped mt-2">
+                <thead>
+                    <tr>
+                        <th>subject</th>
+                        <th>id</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="project-list"></tbody>
+            </table>
+
+        </div>
+       <!-- <h2>General todos</h2>
+          <div class="todos ">
+            <h2 class="todos-section-title" id="todos-section-title">
+              <span id="project-title-container"></span>
+            </h2>
+  
+            <form class="add-todo-form" id="todo-form">
+                <div class="form-group">
+                    <label for="title"> Todo:</label>
+                    <input
+                    type="text"
+                    class=""
+                    id="title"
+                    placeholder="title..."
+                    />
+                </div>
+                <div class="form-group">
+                    <label for="title"> Due:</label>
+                    <input type="date" name="due-date" id="due-date" />
+                    <label for="todo-priority-select">
+                        Priority:
+                        <select name="todo-priority-select" id="todo-priority-select">
+                          <option value="low">low </option>
+                          <option value="medium">medium </option>
+                          <option value="high">high </option>
+                        </select>
+                      </label>
+                </div>
+              
+                <div class="form-group">
+                    <label for="todo-text">
+                        Notes:
+                        <textarea
+                        name="todo-text"
+                        id="todo-text"
+                        cols="30"
+                        rows="10"
+                        ></textarea>       
+                    </label>
+                </div>    
+                <input class="btn btn-primary" id="add-todo-btn" value="Add todo">
+            </form>
+            <table class="table table-stripped mt-2">
+                <thead>
+                    <tr>
+                        <th>Title</th>
+                        <th>Due</th>
+                        <th>Priority</th>
+                        <th>Notes</th>
+                        <th></th>
+                    </tr>
+                </thead>
+                <tbody id="todo-list"></tbody>
+            </table>-->
+           
+          
+    <script src="./script.js"></script>
+</body>
+</html>
